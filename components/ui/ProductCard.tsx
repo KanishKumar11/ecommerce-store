@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import IconButton from "./IconButton";
 import { Expand, ShoppingCart } from "lucide-react";
-import Currency from "./Currency";
+import Currency from "./currency";
 import { useRouter } from "next/navigation";
 interface ProductCard {
   data: Product;
